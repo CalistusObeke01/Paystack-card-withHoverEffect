@@ -1,0 +1,55 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+	padding: 0;
+}
+
+.parent {
+	width: 470px;
+	height: 480px;
+	margin: 50px auto;
+	background: #e3f2fd;
+}
+
+.child {
+	width: 450px;
+	background: #fff;
+	padding: 40px;
+	border-radius: 5px;
+	margin-left: 11px;
+	transform: translateY(15px);
+}
+
+.entrepreneur-logo {
+	margin-bottom: 25px;
+}
+
+.content {
+	font-family: "Times New Roman", Times, serif;
+	margin-top: 15px;
+	font-size: 1.4rem;
+	line-height: 2rem;
+}
+
+.learn-more {
+	margin-top: 15px;
+}
+
+.learn-more-content {
+	font-size: 20px;
+	font-weight: 600;
+}
+
+svg {
+	padding-top: 14px;
+}
+
+/*THE HOVER EFFECT*/
+
+.child:hover {
+	background-color: #e3f2fd;
+	color: #fff;
+}
